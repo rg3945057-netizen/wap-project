@@ -1,4 +1,4 @@
-# 🎌 Anime Facts Explorer
+#  Anime Facts Explorer
 
 ## 📌 Project Overview
 
