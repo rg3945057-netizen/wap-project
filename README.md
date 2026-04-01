@@ -146,12 +146,6 @@ project-folder/
 
 ---
 
-## 📅 Deadline
-
-**1st April**
-
----
-
 ## 💡 Important Notes
 
 * This milestone focuses on planning and clarity of the idea
