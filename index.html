@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime Facts Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1>Anime Facts Explorer</h1>
+      <p>Search anime, view details, get quotes, and explore related titles</p>
+    </header>
+
+    <section class="search-section">
+      <div class="search-box">
+        <input
+          type="text"
+          id="animeInput"
+          placeholder="Enter anime name like Naruto, Bleach, One Piece"
+        />
+        <button id="searchBtn">Search</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </section>
+
+    <section id="loading" class="loading hidden">
+      <div class="spinner"></div>
+      <p>Fetching anime data...</p>
+    </section>
+
+    <section id="messageBox" class="message hidden"></section>
+
+    <section id="mainCard" class="main-card hidden"></section>
+
+    <section id="quoteSection" class="section hidden">
+      <h2>Anime Quote</h2>
+      <div id="quoteCard" class="quote-card"></div>
+    </section>
+
+    <section id="relatedSection" class="section hidden">
+      <h2>Related Anime</h2>
+      <div id="relatedContainer" class="related-grid"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
