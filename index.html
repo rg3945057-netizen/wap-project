@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime Facts Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <p class="tag">Anime Search Portal</p>
+        <h1>Anime Facts Explorer</h1>
+        <p class="sub">
+          Search anime titles, review important details, save favorites,
+          and explore related recommendations in a clean interface.
+        </p>
+      </div>
+      <button id="modeBtn" class="mode-btn" type="button">Light Mode</button>
+    </header>
+
+    <section class="find">
+      <div class="find-box">
+        <input
+          type="text"
+          id="animeInput"
+          placeholder="Search anime like Naruto, Bleach, One Piece"
+        />
+        <button id="searchBtn" type="button">Search</button>
+        <button id="resetBtn" type="button" class="alt-btn">Reset</button>
+      </div>
+
+      <div id="sugBox" class="sug hide"></div>
+
+      <div class="tools">
+        <div class="tool">
+          <label for="genreSel">Genre</label>
+          <select id="genreSel">
+            <option value="all">All Genres</option>
+          </select>
+        </div>
+
+        <div class="tool">
+          <label for="scoreSel">Minimum Score</label>
+          <select id="scoreSel">
+            <option value="all">All Scores</option>
+            <option value="6">6 and above</option>
+            <option value="7">7 and above</option>
+            <option value="8">8 and above</option>
+            <option value="9">9 and above</option>
+          </select>
+        </div>
+
+        <div class="tool">
+          <label for="sortSel">Sort Related Titles</label>
+          <select id="sortSel">
+            <option value="default">Default</option>
+            <option value="az">Title A to Z</option>
+            <option value="za">Title Z to A</option>
+            <option value="high">Rating High to Low</option>
+            <option value="low">Rating Low to High</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <h2>Favorites</h2>
+      <div id="favBox" class="grid fav-grid"></div>
+    </section>
+
+    <section id="loading" class="load hide">
+      <div class="spin"></div>
+      <p>Fetching anime data...</p>
+    </section>
+
+    <section id="msg" class="msg hide"></section>
+
+    <section id="mainCard" class="main hide"></section>
+
+    <section id="quoteSec" class="sec hide">
+      <h2>Featured Quote</h2>
+      <div id="quoteCard" class="quote"></div>
+    </section>
+
+    <section id="relSec" class="sec hide">
+      <h2>Related Anime</h2>
+      <p class="small-note">Click any related title to open it instantly.</p>
+      <div id="relBox" class="grid"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
