@@ -1,12 +1,12 @@
-# 🎌 Anime Facts Explorer
+#  Anime Facts Explorer
 
-## 📌 Project Overview
+##  Project Overview
 
 Anime Facts Explorer is a responsive web application that allows users to search for anime and explore detailed information, facts, and related anime dynamically using public APIs. The project focuses on integrating real-time data, building an interactive UI, and ensuring a smooth user experience across devices.
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 The main purpose of this project is to:
 
@@ -50,29 +50,29 @@ The main purpose of this project is to:
 
 ---
 
-## 🚀 Project Goal
+##  Project Goal
 
 To integrate and display real-time anime data from public APIs in an interactive and responsive web interface.
 
 ---
 
-## ✅ Planned Features
+## Planned Features
 
-### 🔍 Core Features
+### Core Features
 
 * Search anime by name
 * Display anime details (image, title, rating, episodes)
 * Show anime synopsis (used as facts)
 * Fetch and display anime quotes
 
-### 🔄 Dynamic Features
+###  Dynamic Features
 
 * Display related anime suggestions
 * Dynamic content rendering using JavaScript
 * Loading state during API calls
 * Error handling for invalid inputs
 
-### 📱 UI/UX Features
+### UI/UX Features
 
 * Fully responsive design (mobile, tablet, desktop)
 * Card-based layout
@@ -80,13 +80,13 @@ To integrate and display real-time anime data from public APIs in an interactive
 
 ---
 
-## Feature added on Milestone 3
+## Feature added 
 
-* 🔎 Search suggestions / autocomplete
-* ❤️ Save favorite anime (localStorage)
-* 🌙 Dark mode toggle
-* 🔃 Sorting and filtering (rating, popularity)
-* 📜 Pagination for results
+*  Search suggestions / autocomplete
+*  Save favorite anime (localStorage)
+*  Dark mode toggle
+*  Sorting and filtering (rating, popularity)
+*  Pagination for results
 
 
 ---
@@ -100,7 +100,7 @@ To integrate and display real-time anime data from public APIs in an interactive
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. User enters an anime name
 2. JavaScript sends a request to the Jikan API
@@ -110,7 +110,7 @@ To integrate and display real-time anime data from public APIs in an interactive
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 project-folder/
@@ -122,10 +122,10 @@ project-folder/
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 --->https://wap-project-cvuosrmqx-rg3945057-netizens-projects.vercel.app
 
-##OR
+## OR
 
 1. Download or clone the repository:
 
@@ -140,7 +140,7 @@ project-folder/
 
 ---
 
-## 📦 Deliverables
+##  Deliverables
 
 * API integration using `fetch`
 * Dynamic display of data
@@ -149,7 +149,7 @@ project-folder/
 
 ---
 
-## 💡 Important Notes
+##  Important Notes
 
 * This milestone focuses on planning and clarity of the idea
 * The project is designed to be feasible within the given timeline
@@ -157,7 +157,7 @@ project-folder/
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 Anime Facts Explorer demonstrates how multiple public APIs can be combined to build an interactive frontend application. It highlights real-time data handling, dynamic UI updates, and responsive design — forming a strong foundation for further development.
 
