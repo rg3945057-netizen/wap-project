@@ -123,6 +123,9 @@ project-folder/
 ---
 
 ## ▶️ How to Run the Project
+--->https://wap-project-cvuosrmqx-rg3945057-netizens-projects.vercel.app
+
+##OR
 
 1. Download or clone the repository:
 
